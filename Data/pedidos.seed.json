@@ -1,0 +1,53 @@
+{
+  "secuenciaInicial": 1248,
+  "pedidos": [
+    {
+      "numeroSecuencia": 1245,
+      "minutosAtras": 24,
+      "estado": "PENDIENTE",
+      "metodoPago": "Tarjeta",
+      "items": [
+        { "platilloId": "p1", "cantidad": 1, "estado": "PENDIENTE" },
+        { "platilloId": "p2", "cantidad": 2, "estado": "PENDIENTE" }
+      ]
+    },
+    {
+      "numeroSecuencia": 1246,
+      "minutosAtras": 18,
+      "estado": "PENDIENTE",
+      "metodoPago": "Tarjeta",
+      "items": [
+        { "platilloId": "p4", "cantidad": 1, "estado": "PENDIENTE" },
+        { "platilloId": "p5", "cantidad": 1, "estado": "PENDIENTE" }
+      ]
+    },
+    {
+      "numeroSecuencia": 1247,
+      "minutosAtras": 11,
+      "estado": "PENDIENTE",
+      "metodoPago": "Tarjeta",
+      "items": [{ "platilloId": "p2", "cantidad": 1, "estado": "PENDIENTE" }]
+    },
+    {
+      "numeroSecuencia": 1243,
+      "minutosAtras": 95,
+      "estado": "LISTO",
+      "metodoPago": "Tarjeta",
+      "items": [
+        { "platilloId": "p1", "cantidad": 2, "estado": "LISTO" },
+        { "platilloId": "p2", "cantidad": 3, "estado": "LISTO" }
+      ]
+    },
+    {
+      "numeroSecuencia": 1240,
+      "minutosAtras": 180,
+      "estado": "ENTREGADO",
+      "metodoPago": "Tarjeta",
+      "entregadoMinutosAtras": 150,
+      "items": [
+        { "platilloId": "p4", "cantidad": 2, "estado": "LISTO" },
+        { "platilloId": "p5", "cantidad": 1, "estado": "LISTO" }
+      ]
+    }
+  ]
+}

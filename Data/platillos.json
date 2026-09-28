@@ -1,0 +1,56 @@
+[
+  {
+    "id": "p1",
+    "nombre": "Hamburguesa Clásica",
+    "descripcion": "Carne 150 g, queso amarillo, lechuga, tomate y salsa de la casa.",
+    "precio": 5500,
+    "disponible": true,
+    "estacion": "Plancha",
+    "foto": "./assets/p1.jpg"
+  },
+  {
+    "id": "p2",
+    "nombre": "Papas Fritas",
+    "descripcion": "Corte rústico, sal marina y alioli de ajo asado.",
+    "precio": 2200,
+    "disponible": true,
+    "estacion": "Fritura",
+    "foto": "./assets/p2.jpg"
+  },
+  {
+    "id": "p3",
+    "nombre": "Malteada de Vainilla",
+    "descripcion": "Helado artesanal, leche entera y vainilla de Sarapiquí.",
+    "precio": 1800,
+    "disponible": false,
+    "estacion": "Bebidas",
+    "foto": "./assets/p3.jpg"
+  },
+  {
+    "id": "p4",
+    "nombre": "Combo Mortal",
+    "descripcion": "Doble carne, tocineta, aros de cebolla y papas.",
+    "precio": 6900,
+    "disponible": true,
+    "estacion": "Plancha",
+    "foto": "./assets/p4.jpg"
+  },
+  {
+    "id": "p5",
+    "nombre": "Alitas Picantes",
+    "descripcion": "Ocho alitas bañadas en salsa habanero y miel.",
+    "precio": 4200,
+    "disponible": true,
+    "estacion": "Fritura",
+    "foto": "./assets/p5.jpg"
+  },
+  {
+    "id": "p6",
+    "nombre": "Ensalada César",
+    "descripcion": "Romana, parmesano, crotones y aderezo césar clásico.",
+    "precio": 2600,
+    "disponible": false,
+    "estacion": "Fríos",
+    "foto": "./assets/p6.jpg"
+  }
+]

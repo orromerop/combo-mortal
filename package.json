@@ -1,0 +1,17 @@
+{
+  "name": "combo-mortal-nuevo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Version portable de El Combo Mortal con persistencia JSON local",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test:internal": "node --test tests/internal-api-edge.test.js",
+    "test:e2e:negative": "playwright test tests/e2e-falla-json-invalido.spec.js",
+    "test": "npm run test:internal"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

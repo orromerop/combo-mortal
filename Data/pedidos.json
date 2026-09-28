@@ -1,0 +1,196 @@
+{
+  "secuencia": 1252,
+  "pedidos": [
+    {
+      "id": "63c4bf65-5759-4c72-af5e-05897857dcf8",
+      "numero": "#A-2026-001251",
+      "creadoEn": "2026-09-25T17:38:43.113Z",
+      "estado": "ENTREGADO",
+      "items": [
+        {
+          "platilloId": "p1",
+          "nombre": "Hamburguesa Clásica",
+          "precio": 5500,
+          "cantidad": 1,
+          "estacion": "Plancha",
+          "estado": "LISTO"
+        }
+      ],
+      "subtotal": 5500,
+      "impuesto": 715,
+      "total": 6215,
+      "metodoPago": "Tarjeta",
+      "historial": [
+        {
+          "ts": "2026-09-25T17:38:44.000Z",
+          "item": "Hamburguesa Clásica",
+          "de": "PENDIENTE",
+          "a": "LISTO",
+          "usuario": "cocinero.turno1"
+        }
+      ],
+      "entregadoEn": "2026-09-25T17:38:44.295Z"
+    },
+    {
+      "id": "354551a1-1f4a-40b6-a1da-04570838b065",
+      "numero": "#A-2026-001250",
+      "creadoEn": "2026-09-25T17:22:16.064Z",
+      "estado": "ENTREGADO",
+      "items": [
+        {
+          "platilloId": "p1",
+          "nombre": "Hamburguesa Clásica",
+          "precio": 5500,
+          "cantidad": 1,
+          "estacion": "Plancha",
+          "estado": "LISTO"
+        },
+        {
+          "platilloId": "p5",
+          "nombre": "Alitas Picantes",
+          "precio": 4200,
+          "cantidad": 2,
+          "estacion": "Fritura",
+          "estado": "LISTO"
+        }
+      ],
+      "subtotal": 13900,
+      "impuesto": 1807,
+      "total": 15707,
+      "metodoPago": "Efectivo",
+      "historial": [
+        {
+          "ts": "2026-09-25T17:23:02.891Z",
+          "item": "Hamburguesa Clásica",
+          "de": "PENDIENTE",
+          "a": "PREPARACION",
+          "usuario": "cocinero.turno1"
+        },
+        {
+          "ts": "2026-09-25T17:23:05.813Z",
+          "item": "Alitas Picantes",
+          "de": "PENDIENTE",
+          "a": "PREPARACION",
+          "usuario": "cocinero.turno1"
+        },
+        {
+          "ts": "2026-09-25T17:23:36.112Z",
+          "item": "Hamburguesa Clásica",
+          "de": "PREPARACION",
+          "a": "LISTO",
+          "usuario": "cocinero.turno1"
+        },
+        {
+          "ts": "2026-09-25T17:23:37.762Z",
+          "item": "Alitas Picantes",
+          "de": "PREPARACION",
+          "a": "LISTO",
+          "usuario": "cocinero.turno1"
+        }
+      ],
+      "entregadoEn": "2026-09-25T17:24:14.365Z"
+    },
+    {
+      "id": "94a93308-156a-42f4-8afa-68c70b06fe03",
+      "numero": "#A-2026-001249",
+      "creadoEn": "2026-09-25T17:16:18.901Z",
+      "estado": "ENTREGADO",
+      "items": [
+        {
+          "platilloId": "p4",
+          "nombre": "Combo Mortal",
+          "precio": 6900,
+          "cantidad": 1,
+          "estacion": "Plancha",
+          "estado": "LISTO"
+        },
+        {
+          "platilloId": "p2",
+          "nombre": "Papas Fritas",
+          "precio": 2200,
+          "cantidad": 2,
+          "estacion": "Fritura",
+          "estado": "LISTO"
+        }
+      ],
+      "subtotal": 11300,
+      "impuesto": 1469,
+      "total": 12769,
+      "metodoPago": "Tarjeta",
+      "historial": [
+        {
+          "ts": "2026-09-25T17:16:47.631Z",
+          "item": "Combo Mortal",
+          "de": "PENDIENTE",
+          "a": "PREPARACION",
+          "usuario": "cocinero.turno1"
+        },
+        {
+          "ts": "2026-09-25T17:16:50.391Z",
+          "item": "Papas Fritas",
+          "de": "PENDIENTE",
+          "a": "PREPARACION",
+          "usuario": "cocinero.turno1"
+        },
+        {
+          "ts": "2026-09-25T17:16:56.031Z",
+          "item": "Papas Fritas",
+          "de": "PREPARACION",
+          "a": "LISTO",
+          "usuario": "cocinero.turno1"
+        },
+        {
+          "ts": "2026-09-25T17:17:31.405Z",
+          "item": "Combo Mortal",
+          "de": "PREPARACION",
+          "a": "LISTO",
+          "usuario": "cocinero.turno1"
+        }
+      ],
+      "entregadoEn": "2026-09-25T17:17:54.908Z"
+    },
+    {
+      "id": "fc03cc5a-aefb-493e-bb90-afc8ba524428",
+      "numero": "#A-2026-001248",
+      "creadoEn": "2026-09-25T17:10:28.616Z",
+      "estado": "ENTREGADO",
+      "items": [
+        {
+          "platilloId": "p1",
+          "nombre": "Hamburguesa Clásica",
+          "precio": 5500,
+          "cantidad": 1,
+          "estacion": "Plancha",
+          "estado": "LISTO"
+        }
+      ],
+      "subtotal": 5500,
+      "impuesto": 715,
+      "total": 6215,
+      "metodoPago": "Efectivo",
+      "historial": [
+        {
+          "ts": "2026-09-25T17:11:10.177Z",
+          "item": "Hamburguesa Clásica",
+          "de": "PENDIENTE",
+          "a": "PREPARACION",
+          "usuario": "cocinero.turno1"
+        },
+        {
+          "ts": "2026-09-25T17:13:03.611Z",
+          "item": "Hamburguesa Clásica",
+          "de": "PREPARACION",
+          "a": "LISTO",
+          "usuario": "cocinero.turno1"
+        }
+      ],
+      "entregadoEn": "2026-09-25T17:13:30.731Z"
+    }
+  ],
+  "carrito": [
+    {
+      "platilloId": "p1",
+      "cantidad": 1
+    }
+  ]
+}

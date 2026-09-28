@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>El Combo Mortal</title>
+    <meta
+      name="description"
+      content="Pedidos, cocina y administración para la soda El Combo Mortal."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="wrap topbar-inner">
+        <a class="brand" href="#menu" aria-label="Ir al menú">
+          <span class="brand-badge">🔥</span>
+          <span class="brand-text">EL COMBO <strong>MORTAL</strong></span>
+        </a>
+
+        <nav class="main-nav" aria-label="Navegación principal">
+          <a href="#menu" data-nav="menu">Menú</a>
+          <a href="#checkout" data-nav="checkout">Pagar</a>
+          <a href="#cocina" data-nav="cocina">Cocina</a>
+          <a href="#admin" data-nav="admin">Administración</a>
+        </nav>
+
+        <a href="#checkout" class="cart-pill" aria-label="Ir al pedido">
+          🛒 <span id="cart-count">0</span>
+        </a>
+      </div>
+    </header>
+
+    <main class="wrap" id="app" aria-live="polite"></main>
+
+    <footer class="footer">
+      El Combo Mortal · Soda y hamburguesería · San José, Costa Rica
+    </footer>
+
+    <div id="lightbox" class="lightbox" hidden>
+      <button id="lightbox-close" class="lightbox-close" aria-label="Cerrar imagen">×</button>
+      <img id="lightbox-img" src="" alt="" />
+      <p id="lightbox-caption"></p>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
